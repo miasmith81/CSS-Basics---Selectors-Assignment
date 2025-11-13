@@ -230,18 +230,18 @@ main header {
 }
 
 /* Back Link Special Styling */
-a[href="/index.html"] {
+a[href="../index.html"] {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   background: var(--glass-white);
-  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid var(--glass-border);
   z-index: 100;
 }
 
-a[href="/index.html"]:hover {
+a[href="../index.html"]:hover {
   background: rgba(255, 255, 255, 0.4);
 }
 
