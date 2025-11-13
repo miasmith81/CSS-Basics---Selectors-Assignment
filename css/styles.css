@@ -244,3 +244,18 @@ a[href="/index.html"] {
 a[href="/index.html"]:hover {
   background: rgba(255, 255, 255, 0.4);
 }
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  background: var(--glass-white);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px var(--shadow-light);
+  color: var(--text-dark);
+  font-weight: 500;
+}
